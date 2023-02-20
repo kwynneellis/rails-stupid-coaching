@@ -1,0 +1,8 @@
+<div class="callout border-start border-5 px-4 py-2 my-3">
+  <p class="m-0"><%= params[:question] %><br><em>- You </em></p>
+</div>
+<div class="callout border-start border-5 px-4 py-2 my-3">
+  <p class="m-0"><strong><%= @answer %></strong><br><em>- Your Coach </em></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
